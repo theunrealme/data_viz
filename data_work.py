@@ -161,7 +161,7 @@ def raised_monthly():
     plt.title('Monthly Totals Raised for All Candidates')
     plt.savefig('plt7.png')
     #plt.show()
-#raised_monthly()
+#raised_monthly() another change
 
 def num_donations():
     donations = select_fields.groupby('candidate_name')['transaction_id'].count()
